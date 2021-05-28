@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  color: rgb(8, 8, 44);
+}
+.Navbar,
+.Add {
+  font-family: "Montserrat", sans-serif;
+}
+.MovieCard {
+  margin: 10px;
+}
+.MovieList {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+footer{
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.poster {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+.Added{
+  display: block;
+  color: #000;
+  padding: 8px 0 8px 16px;
+  text-decoration: none;
+}
+.NewMovie {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.button1 {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
